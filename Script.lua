@@ -1,4 +1,4 @@
-local FakeSpace = "                                                                                                                                            "
+local FakeSpace = "                                                                                                                                                 "
 local Event = nil
 if game:GetService("ReplicatedStorage"):FindFirstChild("DefaultChatSystemChatEvents") then
 	if game:GetService("ReplicatedStorage"):FindFirstChild("DefaultChatSystemChatEvents"):FindFirstChild("SayMessageRequest") then
