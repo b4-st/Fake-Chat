@@ -13,7 +13,7 @@ else
 end
 if Event then
 	if Event:IsA("RemoteEvent") then
-		Event:FireServer(_G.RealMessage.. _G.FakeSpace.. _G.FakeMessage, "All")
+		Event:FireServer(_G.RealMessage.. _G.FakeSpace.. "[".. _G.FakeUsername.. "]: ".. _G.FakeMessage, "All")
 	else
 		Event:SendAsync(_G.RealMessage.. _G.FakeSpace.. _G.FakeUsername.. ": ".. _G.FakeMessage, "")
 	end
